@@ -1,0 +1,37 @@
+export const siteConfig = {
+  id: "daily-ticket",
+  name: "데일리티켓",
+  domain: "데일리티켓.com",
+  phoneHref: "tel:01024263389",
+  kakaoUrl: "https://open.kakao.com/o/sd88tpJi" as string | null,
+  colors: {
+    main: "#0f766e",
+    sub: "#115e59",
+    surface: "#f0fdfa",
+    productSurface: "#f5fffc",
+    kakao: "#ffdc42",
+    danger: "#de4e4e",
+    caption: "#999999",
+    text: "#173f3b",
+  },
+  transactionMode: "approved-static" as const,
+  referenceFamily: "ticket-bora",
+} as const;
+
+export const transactionRows = [
+  { name: "조**", product: "신세계 상품권", amount: "60,000원", applied: "2026-08-18 07:13", duration: "7분" },
+  { name: "조**", product: "신세계 상품권", amount: "30,000원", applied: "2026-08-18 06:21", duration: "7분" },
+  { name: "최**", product: "온라인 문화상품권", amount: "70,000원", applied: "2026-08-18 17:06", duration: "9분" },
+  { name: "곽**", product: "롯데백화점 상품권", amount: "60,000원", applied: "2026-08-18 10:36", duration: "10분" },
+  { name: "천**", product: "신세계 상품권", amount: "60,000원", applied: "2026-08-18 12:07", duration: "10분" },
+  { name: "송**", product: "롯데백화점 상품권", amount: "40,000원", applied: "2026-08-18 00:51", duration: "5분" },
+  { name: "장**", product: "롯데백화점 상품권", amount: "40,000원", applied: "2026-08-18 04:01", duration: "10분" },
+  { name: "조**", product: "온라인 문화상품권", amount: "70,000원", applied: "2026-08-18 18:03", duration: "10분" },
+  { name: "홍**", product: "롯데백화점 상품권", amount: "30,000원", applied: "2026-08-18 04:06", duration: "7분" },
+  { name: "조**", product: "신세계 상품권", amount: "30,000원", applied: "2026-08-18 00:20", duration: "8분" },
+  { name: "차**", product: "온라인 문화상품권", amount: "60,000원", applied: "2026-08-18 05:45", duration: "6분" },
+  { name: "윤**", product: "티머니", amount: "50,000원", applied: "2026-08-18 14:58", duration: "7분" },
+  { name: "진**", product: "홈플러스 상품권", amount: "390,000원", applied: "2026-08-18 08:41", duration: "7분" },
+  { name: "신**", product: "컬쳐랜드 상품권", amount: "690,000원", applied: "2026-08-18 08:41", duration: "10분" },
+  { name: "장**", product: "온라인 문화상품권", amount: "70,000원", applied: "2026-08-18 08:46", duration: "5분" },
+] as const;
