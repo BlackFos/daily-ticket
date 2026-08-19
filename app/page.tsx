@@ -194,6 +194,12 @@ export default function Home() {
             <span>
               <b>상담방법</b> : 전화·카카오톡
             </span>
+            <span>
+              <b>
+                {siteConfig.businessOwnerName}({siteConfig.name}) 사업자 번호
+              </b>{" "}
+              : {siteConfig.businessRegistrationNumber}
+            </span>
           </div>
           <div className="footer-support">
             <a href={siteConfig.phoneHref} aria-label={`${siteConfig.name} 전화문의`}>

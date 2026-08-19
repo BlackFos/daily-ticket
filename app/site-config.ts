@@ -2,6 +2,8 @@ export const siteConfig = {
   id: "daily-ticket",
   name: "데일리티켓",
   domain: "데일리티켓.com",
+  businessOwnerName: "착한상품권",
+  businessRegistrationNumber: "454-96-01965",
   phoneHref: "tel:01024263389",
   kakaoUrl: "https://open.kakao.com/o/sd88tpJi" as string | null,
   colors: {
