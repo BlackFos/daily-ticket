@@ -3,7 +3,9 @@ export const siteConfig = {
   name: "데일리티켓",
   domain: "데일리티켓.com",
   businessOwnerName: "착한상품권",
+  representative: "강현민",
   businessRegistrationNumber: "454-96-01965",
+  phoneDisplay: "010-2426-3389",
   phoneHref: "tel:01024263389",
   kakaoUrl: "https://open.kakao.com/o/sd88tpJi" as string | null,
   colors: {
