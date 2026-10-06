@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
+import { siteConfig } from "./site-config";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://xn--2n1b71jc1mdmhj3e.com"),
+  metadataBase: new URL(`https://${siteConfig.domain}`),
+  alternates: { canonical: "/" },
   title: "데일리티켓 | 상품권 상담 전문",
   description: "데일리티켓 상품권 상담 안내 페이지입니다.",
   openGraph: {
